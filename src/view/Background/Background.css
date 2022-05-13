@@ -1,0 +1,96 @@
+.background-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.background-image .layer {
+  position: absolute;
+}
+
+.background-image .target-animation {
+  position: absolute;
+  max-width: 250px;
+  right: 0%;
+  bottom: 10%;
+  animation: left-right 35s infinite;
+}
+
+.background-image .homework-animation {
+  max-width: 300px;
+  left: 15%;
+  top: 17%;
+  animation: left-right 25s infinite;
+}
+
+.background-image .text-animation {
+  max-width: 500px;
+  left: 0%;
+  bottom: 45%;
+  animation: right-left 10s infinite;
+}
+
+.background-image .cartoon-animation {
+  position: absolute;
+  max-width: 500px;
+  left: -5%;
+  bottom: 10%;
+  animation: cartoon 10s infinite;
+}
+
+@keyframes right-left {
+  0% {
+    transform: rotate(0) translate(0);
+  }
+  25% {
+    transform: translateY(-15px);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  25% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes left-right {
+  0% {
+    transform: rotate(0) translate(0);
+  }
+  25% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: rotate(25deg);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes cartoon {
+  0% {
+    transform: rotate(0) translate(0);
+  }
+  25% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: rotate(0) translate(0);
+  }
+  25% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}

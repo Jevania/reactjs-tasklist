@@ -1,0 +1,28 @@
+.new-task-card-wrapper {
+  display: grid;
+  row-gap: 20px;
+  padding: 20px;
+}
+.new-task-card-wrapper-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.new-task-card-wrapper h3 {
+  text-decoration: underline;
+  
+}
+
+.new-task-card-wrapper button {
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  border: 0;
+  padding: 5px 90px;
+  border-radius: 20px;
+}
+
+.error-text {
+  color: red;
+}

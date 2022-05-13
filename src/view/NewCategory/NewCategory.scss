@@ -1,0 +1,31 @@
+.new-category-wrapper {
+  padding: 25px;
+  margin-left: 23%;
+}
+.new-category-wrapper-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding-bottom: 20px;
+  margin-left: 5%;
+}
+.new-category-wrapper h4 {
+  margin: 0;
+}
+
+.new-category-wrapper .text {
+  padding: 10px 0px;
+  padding-bottom: 30px;
+}
+
+.new-category-wrapper button {
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(255, 222, 197);
+  border: 0;
+  padding: 5px 90px;
+  border-radius: 20px;
+}
+
+.bg-orange {
+  background-color: #f38006;
+}

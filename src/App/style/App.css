@@ -1,0 +1,17 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  background-color: #F9F6F4;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+}
+.task-list-wrapper {
+  display: inline-grid;
+  grid-template-columns: 500px 500px;
+  padding: 10px 30px;
+  column-gap: 40px;
+  row-gap: 10px;
+}
